@@ -17,7 +17,7 @@ function setup()
 {
     let canvas = createCanvas(560, 600);
 
-    songStartAudio();
+    song.loop();
     
     //Creating sprites
     SantaChristmas = createSprite(100, 520);
